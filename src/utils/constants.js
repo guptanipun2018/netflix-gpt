@@ -6,6 +6,10 @@ export const backgroundImage = "https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf
 
 export const userDefaultImg = "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png"
 
+export const needHelpBackground = "https://assets.nflxext.com/ffe/siteui/acquisition/login/login-the-crown_2-1500x1000.jpg"
+
+export const verifyOtpBackground="https://w0.peakpx.com/wallpaper/348/73/HD-wallpaper-red-abstract-background-red-geometric-background-red-creative-background-red-paper-background.jpg"
+
 export const API_OPTIONS={
     method: "GET",
     headers: {

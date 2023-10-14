@@ -1,6 +1,8 @@
 import { RouterProvider, createBrowserRouter} from "react-router-dom"
 import Login from "./Login"
 import Browse from "./Browse"
+import NeedHelpRenderPage from "./NeedHelpRenderPage"
+import VerifyOTP from "./VerifyOTP"
 const Body=()=>{
   
     
@@ -12,6 +14,14 @@ const Body=()=>{
         {
             path: "/browse",
             element:<Browse/>
+        },
+        {
+            path: "/help",
+            element:<NeedHelpRenderPage/>
+        },
+        {
+            path:"/help/verify_otp",
+            element:<VerifyOTP/>
         }
     ])
 

@@ -4,8 +4,8 @@ import GptSearchBar from "./GptSearchBar";
 
 const GptSearch = ()=>{
     return (
-    <div className=" absolute -z-10">
-        <div>
+    <div >
+        <div className="absolute -z-50">
             <img src={backgroundImage} alt="Background Image"/>
         </div>
         <GptSearchBar/>
